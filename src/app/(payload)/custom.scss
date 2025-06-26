@@ -19,3 +19,126 @@
 .toolbar-active {
   background-color: #3c3c3c !important;
 }
+
+.live-preview-wrapper {
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 20px;
+  border-top: 1px solid #222;
+  padding-top: 16px;
+  background: #18191a;
+}
+
+.live-preview-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  gap: 8px;
+}
+
+.live-preview-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.live-preview-converting {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.live-preview-content-outer {
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 16px;
+  min-height: 80px;
+  background: #23272f;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.live-preview-content-inner {
+  background: #18191a;
+  padding: 12px;
+  border-radius: 4px;
+  min-height: 40px;
+  border: 1px solid #333;
+  color: #f1f1f1;
+}
+
+.live-preview mark {
+  background-color: #ffe066;
+  padding: 0.1em 0.2em;
+  border-radius: 2px;
+  color: #222;
+}
+
+.live-preview p {
+  margin-bottom: 0.8em;
+  line-height: 1.5;
+  color: #e0e0e0;
+}
+
+.live-preview h1,
+.live-preview h2,
+.live-preview h3,
+.live-preview h4 {
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+  color: #fff;
+}
+
+.live-preview ul,
+.live-preview ol {
+  margin-bottom: 0.8em;
+  padding-left: 1.5em;
+  color: #e0e0e0;
+}
+
+.live-preview blockquote {
+  border-left: 3px solid #444;
+  padding-left: 1em;
+  margin: 1em 0;
+  font-style: italic;
+  color: #aaa;
+  background: #23272f;
+}
+
+.live-preview pre {
+  background: #23272f;
+  padding: 8px;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 12px;
+  color: #e0e0e0;
+}
+
+.live-preview-html-raw {
+  margin-top: 16px;
+}
+
+.live-preview-html-label {
+  color: #aaa;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.live-preview-html-pre {
+  background: #18191a;
+  color: #ffe066;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 13px;
+  overflow-x: auto;
+}
+
+.live-preview-error {
+  color: #ff6666;
+  background: #23272f;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 13px;
+  margin: 8px 0;
+  text-align: center;
+}

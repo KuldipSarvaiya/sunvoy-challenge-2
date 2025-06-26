@@ -12,6 +12,14 @@ export const Posts: CollectionConfig = {
       name: 'content',
       type: 'richText',
       required: true,
+      admin: {
+        components: {
+          afterInput: {
+            path: '@/app/(payload)/admin/components/LiveHTMLPreview',
+            clientProps: {},
+          },
+        },
+      },
     },
   ],
   access: {
